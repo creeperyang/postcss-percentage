@@ -1,0 +1,33 @@
+{
+  "name": "postcss-percentage",
+  "version": "0.0.0",
+  "description": "PostCSS plugin to support percentage() function",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "percentage",
+    "percentage function"
+  ],
+  "author": "creeperyang <yangcreeper@hotmail.com>",
+  "license": "MIT",
+  "repository": "creeperyang/postcss-percentage",
+  "bugs": {
+    "url": "https://github.com/creeperyang/postcss-percentage/issues"
+  },
+  "homepage": "https://github.com/creeperyang/postcss-percentage",
+  "dependencies": {
+    "math-expression-evaluator": "^1.2.16",
+    "postcss": "^5.2.16",
+    "postcss-value-parser": "^3.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^19.0.2"
+  },
+  "scripts": {
+    "lint": "eslint *.js",
+    "test": "jest"
+  }
+}
