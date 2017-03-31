@@ -1,0 +1,10 @@
+language: node_js
+cache: yarn
+node_js:
+  - stable
+  - "7"
+  - "6"
+  - "4"
+script:
+  - "npm test"
+  - "npm run lint"
